@@ -30,10 +30,10 @@ for (var i = 0; i < bijoCnt; i++) {
 
     if (imgUrl != null) {
       var bijObj = {
-        "name" : name,
-        "age" : age,
-        "height" : height,
-        "img": 'http://www.bijogoyomi.com' + imgUrl
+        "bj_name" : name,
+        "bj_age" : age,
+        "bj_height" : height,
+        "bj_img": 'http://www.bijogoyomi.com' + imgUrl
       };
       console.log('hoge');
 
